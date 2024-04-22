@@ -1,9 +1,9 @@
 import java.util.*;
 
 class CarRent {
-    private List<Car> cars; // listing cars available for rent
-    private List<Customer> customer; // listing customers who have rented cars
-    private List<Rent> rent; // listing rent details for cars
+    private ArrayList<Car> cars; // listing cars available for rent
+    private ArrayList<Customer> customer; // listing customers who have rented cars
+    private ArrayList<Rent> rent; // listing rent details for cars
 
     // Constructor
     public CarRent() {
